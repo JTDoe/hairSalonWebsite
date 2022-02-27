@@ -80,7 +80,7 @@ text-transform: uppercase;
   text-align: center;
   line-height: 24px;
   margin: 0px 350px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 /* -------Footer------- */
@@ -91,6 +91,7 @@ footer{
   flex-direction: row;
   justify-content: left;
   align-items: center;
+  margin-top: 50px;
 }
 footer ul{
   list-style-type: none;

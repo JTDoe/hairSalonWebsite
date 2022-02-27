@@ -118,3 +118,32 @@ footer ul a{
   text-align: center;
   padding: 5 5 5 5;
 }
+
+/* -----Media Quiries------- */
+
+/* @media screen and (max-width:576px) {
+
+}
+#main-container{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-container img {
+  margin-bottom: 10px;
+}
+#main-container h1{
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+}
+
+
+} */
