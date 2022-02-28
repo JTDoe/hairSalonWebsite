@@ -150,10 +150,14 @@ footer ul a:hover{
 
 /* -----Media Quiries------- */
 @media screen and (max-width:576px){
+  body{
+    margin:auto;
+  }
 
   footer{
     width: 100%;
     display: block;
+    margin: 0;
   }
   footer ul{
     margin-top: 10px;
