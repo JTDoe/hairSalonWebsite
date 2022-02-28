@@ -48,6 +48,10 @@ font-family: "Arial Black", Gadget, sans-serif;
 font-size: 14px;
 text-transform: uppercase;
 }
+header nav ul a:hover{
+  color:#0ba39c;
+}
+
 /* -----main-container-------- */
 
 #main-container{
@@ -133,3 +137,35 @@ footer ul a{
   text-align: center;
   padding: 5 5 5 5;
 }
+
+footer ul a.fa.fa-pinterest{
+  margin-right: 0%;
+} 
+
+footer ul a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* -----Media Quiries------- */
+@media screen and (max-width:576px){
+
+  footer{
+    width: 100%;
+    display: block;
+  }
+  footer ul{
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  footer span {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+  }
+  footer nav a {
+    display: flex;
+  }
+  }

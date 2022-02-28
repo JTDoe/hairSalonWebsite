@@ -48,6 +48,9 @@ font-family: "Arial Black", Gadget, sans-serif;
 font-size: 14px;
 text-transform: uppercase;
 }
+header nav ul a:hover, header nav ul a:active {
+  color:#0ba39c;
+}
 
 /* -----main-container-------- */
 
@@ -110,10 +113,58 @@ footer ul a{
   color: white;
   list-style: none;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid white; 
   height: 44px;
   width: 44px;
   margin-right: 15px;
   text-align: center;
   padding: 5 5 5 5;
+}
+footer ul a.fa.fa-pinterest{
+  margin-right: 0%;
+} 
+footer ul a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* ----- Media Quiries ------- */
+
+@media screen and (max-width:576px){
+  header{
+    justify-content: space-evenly;
+    width: fit-content;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #main-container{
+    width: 100%;
+  }
+
+  #main-container p {
+    margin: auto;
+    text-align: center;
+  }
+  footer{
+    width: 100%;
+    display: block;
+  }
+  footer ul{
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  footer span {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+  }
+  footer nav a {
+    display: flex;
+  }
+
 }

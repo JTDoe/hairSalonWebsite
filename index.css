@@ -49,6 +49,9 @@ font-size: 14px;
 text-transform: uppercase;
 }
 
+header nav ul a:hover{
+  color: #0ba39c;
+}
 /* -------- main -------- */
 main{
   min-height: 477px;
@@ -95,6 +98,11 @@ main{
   font-size: 16px;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.main-text button:hover{
+  background-color: #4ac4bd;
+  
 }
 /*------ Section------- */
 
@@ -150,4 +158,51 @@ footer ul a{
   margin-right: 15px;
   text-align: center;
   padding: 5 5 5 5;
+}
+footer ul a.fa.fa-pinterest{
+  margin-right: 0%;
+} 
+footer ul a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* ------ Media Quiries --------- */
+
+@media screen and (max-width:576px){
+header{
+  justify-content: space-evenly;
+  width: fit-content;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+main{
+  display: block;
+  width: 100%;
+  background-position: 50% 75%;
+}
+section{
+  display: grid;
+  height: fit-content;
+}
+footer{
+  width: 100%;
+  display: block;
+}
+footer ul{
+  margin-top: 10px;
+  justify-content: center;
+  padding-left: 0%;
+}
+footer span {
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+footer nav a {
+  display: flex;
+}
 }
