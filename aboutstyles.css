@@ -129,38 +129,21 @@ footer ul a:hover{
   color: black;
 }
 
-/* ----- Media Quiries ------- */
-
-@media screen and (max-width:819px){
-
-  #main-container{
+/* ------ Media Quiries --------- */
+@media screen and (max-width: 576px){
+  body {
     width: 100%;
+  
   }
-  #main-container img{
-    width:75%;
-  }
-
-  #main-container p {
-    margin: 10px 75px;
-    text-align: center;
-  }
-  footer{
+  header{
     width: 100%;
-    display: block;
-  }
-  footer ul{
-    margin-top: 10px;
+    justify-content: space-evenly;
     justify-content: center;
-    padding-left: 0%;
-  }
-  footer span {
-    display: flex;
+    justify-items: center;
+    align-items: center;
     text-align: center;
-    padding-top: 20px;
-    margin: 0;
-  }
-  footer nav a {
-    display: flex;
-  }
-
+    padding: 0px;
+    /* height: 50%; */
+    margin-top: 10px;
+}
 }
