@@ -24,7 +24,7 @@
   header h1{
     font-size: 60px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-top: 0px;
     font-family: 'satisfy',cursive;
     text-transform: uppercase;
@@ -76,10 +76,11 @@
 
   #grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     text-align: center;
     justify-content: center;
-    padding-right: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
   }
   #grid-container img{
     border: solid black;
@@ -169,17 +170,25 @@ footer ul a:hover{
 
 /* -----Media Quiries------- */
 @media screen and (max-width:707px){
+  body {
+    width: 100%;
+  
+  }
   header{
     width: 100%;
-    justify-content: space-evenly;
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    padding: 0px;
-    /* height: %; */
+    padding: 0;
+    height: 40%;
     margin-top: 10px;
-}
+    line-height: 50px;
+  }
+  header nav{
+    width: 100%;
+    margin-bottom: 0%;
+  }
 #grid-container{
   display: grid;
   grid-template-columns: 1fr;
@@ -192,7 +201,7 @@ footer ul a:hover{
 #grid-container div {
 align-self: baseline;
 justify-self: center;
-width: 500px;
+width: 75%;
 border-width: 0px 2px 2px 2px;
 }
 
@@ -201,7 +210,7 @@ justify-self: center;
  margin: 0;
  align-self:flex-end;
  border-width:2px 2px 0px 2px ;
- width: 500px;
+ width: 75%;
 }
 
 /* ------- Footer --------- */

@@ -24,7 +24,7 @@ header{
 header h1{
   font-size: 60px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-top: 0px;
   font-family: 'satisfy',cursive;
   text-transform: uppercase;
@@ -163,6 +163,7 @@ footer ul a:hover{
     padding: 0px;
     /* height: %; */
     margin-top: 10px;
+    line-height: 50px;
 }
 
   body{
