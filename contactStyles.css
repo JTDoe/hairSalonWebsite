@@ -153,6 +153,18 @@ footer ul a:hover{
 
 /* -----Media Quiries------- */
 @media screen and (max-width:576px){
+  header{
+    width: 100%;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    /* height: %; */
+    margin-top: 10px;
+}
+
   body{
     margin:auto;
   }

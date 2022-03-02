@@ -5,11 +5,11 @@
   body{
     margin: 0;
   }
-  .main-container{
+  /* .main-container{
   height: 100%;
   display: flex;
   flex-direction: column;
-  }
+  } */
   
   /* ------ Header ---------- */
   header{
@@ -78,8 +78,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    padding-right: 175px;
-    
+    justify-content: center;
+    padding-right: 8%;
   }
   #grid-container img{
     border: solid black;
@@ -89,7 +89,8 @@
   }
   #grid-container div {
     border: 2px solid black;
-    width: 558px;
+    max-width: 558px;
+    max-height:295px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,6 +100,7 @@
     
   }
   #grid-container h3{
+    margin: 0;
     font-family: "Arial Black", gadget, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
@@ -166,7 +168,7 @@ footer ul a:hover{
 }
 
 /* -----Media Quiries------- */
-@media screen and (max-width:576px){
+@media screen and (max-width:707px){
   header{
     width: 100%;
     justify-content: space-evenly;
@@ -186,16 +188,20 @@ footer ul a:hover{
   justify-content: center;
   justify-items: center;
   padding: 0%;
-
 }
 #grid-container div {
-align-self: center;
+align-self: baseline;
 justify-self: center;
-width: 376px;
+width: 500px;
+border-width: 0px 2px 2px 2px;
 }
 
 #grid-container img {
+justify-self: center;
  margin: 0;
+ align-self:flex-end;
+ border-width:2px 2px 0px 2px ;
+ width: 500px;
 }
 
 /* ------- Footer --------- */
