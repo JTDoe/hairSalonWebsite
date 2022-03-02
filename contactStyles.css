@@ -105,27 +105,32 @@ header nav ul a:hover{
   width: 105px;
   height: 66px;
 }
-/* -------Footer------- */
+/* -------- Footer --------- */
 footer{
+  width: 100%;
   min-height:122px;
   background-color: #252525;
+  padding: 36px 100px 42px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   align-items: center;
+  justify-content: space-between;
+}
+footer nav{
+  align-items: center;
+  
 }
 footer ul{
+  padding: 0;
   list-style-type: none;
   display: flex;
   font-size: 30px;
+  align-self: flex-end;
 }
 footer span {
-  align-items: center;
-  justify-content: center;
+  margin-left: 5%;
   color: white;
-  margin-left: 120px;
-  margin-right: 500px;
-  
+  justify-content: center;
 }
 footer ul a{
   color: white;
@@ -138,11 +143,9 @@ footer ul a{
   text-align: center;
   padding: 5 5 5 5;
 }
-
 footer ul a.fa.fa-pinterest{
   margin-right: 0%;
 } 
-
 footer ul a:hover{
   background-color: white;
   color: black;
@@ -167,7 +170,6 @@ footer ul a:hover{
   footer span {
     display: flex;
     text-align: center;
-    padding-top: 20px;
     margin: 0;
   }
   footer nav a {

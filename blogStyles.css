@@ -76,17 +76,16 @@
 
   #grid-container{
     display: grid;
-    grid-template-columns: .25fr .75fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-left: 145px;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
-    
+    padding-right: 175px;
     
   }
   #grid-container img{
     border: solid black;
     border-width: 2px 0px 2px 2px;
     margin-bottom: 13px;
+    justify-self: end;
   }
   #grid-container div {
     border: 2px solid black;
@@ -120,28 +119,32 @@
     border: none;
     
   }
- /* -------Footer------- */
+ /* -------- Footer --------- */
 footer{
-  margin-top: 25px;
+  width: 100%;
   min-height:122px;
   background-color: #252525;
+  padding: 36px 100px 42px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   align-items: center;
+  justify-content: space-between;
+}
+footer nav{
+  align-items: center;
+  
 }
 footer ul{
+  padding: 0;
   list-style-type: none;
   display: flex;
   font-size: 30px;
+  align-self: flex-end;
 }
 footer span {
-  align-items: center;
-  justify-content: center;
+  margin-left: 5%;
   color: white;
-  margin-left: 120px;
-  margin-right: 500px;
-  
+  justify-content: center;
 }
 footer ul a{
   color: white;
@@ -157,7 +160,6 @@ footer ul a{
 footer ul a.fa.fa-pinterest{
   margin-right: 0%;
 } 
-
 footer ul a:hover{
   background-color: white;
   color: black;
@@ -165,7 +167,38 @@ footer ul a:hover{
 
 /* -----Media Quiries------- */
 @media screen and (max-width:576px){
+  header{
+    width: 100%;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    /* height: %; */
+    margin-top: 10px;
+}
+#grid-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0%;
 
+}
+#grid-container div {
+align-self: center;
+justify-self: center;
+width: 376px;
+}
+
+#grid-container img {
+ margin: 0;
+}
+
+/* ------- Footer --------- */
   footer{
     width: 100%;
     display: block;
@@ -178,7 +211,6 @@ footer ul a:hover{
   footer span {
     display: flex;
     text-align: center;
-    padding-top: 20px;
     margin: 0;
   }
   footer nav a {

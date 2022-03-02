@@ -108,13 +108,15 @@ main{
 /*------ Section------- */
 
 section{
-  padding-top: 24px;
+  padding: 24px;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 section div img{
+  max-width: 100%;
+  /* height: auto; */
   margin-top: 20px;
   margin-left: 20px;
   border: 2px solid black;
@@ -129,25 +131,30 @@ section p{
 }
 /* -------- Footer --------- */
 footer{
+  width: 100%;
   min-height:122px;
   background-color: #252525;
+  padding: 36px 100px 42px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   align-items: center;
+  justify-content: space-between;
+}
+footer nav{
+  align-items: center;
+  
 }
 footer ul{
+  padding: 0;
   list-style-type: none;
   display: flex;
   font-size: 30px;
+  align-self: flex-end;
 }
 footer span {
-  align-items: center;
-  justify-content: center;
+  margin-left: 5%;
   color: white;
-  margin-left: 120px;
-  margin-right: 500px;
-  
+  justify-content: center;
 }
 footer ul a{
   color: white;
@@ -202,6 +209,7 @@ section{
   display: grid;
   height: fit-content;
 }
+
 footer{
   width: 100%;
   display: block;
@@ -214,7 +222,6 @@ footer ul{
 footer span {
   display: flex;
   text-align: center;
-  padding-top: 20px;
   margin: 0;
 }
 footer nav a {
