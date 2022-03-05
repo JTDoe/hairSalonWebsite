@@ -83,7 +83,7 @@ header nav ul a:hover{
   border: 2px solid black;
   margin-bottom: 37px;
 }
-#main-container textarea {
+ #main-container textarea  {
   border: 2px solid black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -163,8 +163,7 @@ footer ul a:hover{
       justify-items: center;
       align-items: center;
       text-align: center;
-      padding: 0;
-      height: 40%;
+      padding: 0px;
       margin-top: 10px;
       line-height: 50px;
     }
@@ -176,11 +175,26 @@ footer ul a:hover{
      width: 100%;
      height: auto;
    }
+   
+   #main-container h1 {
+     width: 100%;
+     font-size: 20px;
+   }
+   #main-container textarea {
+     display: block;
+     width: 85%;
+   }
+   #main-container input{
+     display: block;
+     width: 85%;
+   }
   
   /* ------- Footer --------- */
     footer{
       width: 100%;
       display: block;
+      max-height:122px;
+      padding-top: 0px;
     }
     footer ul{
       margin-top: 10px;
